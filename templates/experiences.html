@@ -1,0 +1,17 @@
+<ul class="timeline">
+    <li class="timeline-inverted" ng-repeat="data in datas">
+            <div class="timeline-badge info">
+                {{data.date}}
+            </div>
+            <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>{{data.titre}}</h4>
+                        <em>{{data.type}}</em>
+                    </div>
+                <br />
+                <p class="justify">{{data.description}}</p>
+                <br />
+                <a target="_blank" href="{{data.lien}}">{{data.lien}}</a>
+            </div>
+    </li>
+</ul>

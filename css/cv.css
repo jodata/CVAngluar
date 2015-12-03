@@ -1,0 +1,110 @@
+/* HTML Matkups*/
+html, body{
+    background-color: #f2f2f2;
+    font-family: 'Open Sans Light', sans-serif;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+table {
+    width: 100%;
+}
+
+td{
+    border-bottom: solid 1px rgb(224,224,224);
+}
+
+tr{
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav a {
+    color: #ffffff;
+}
+
+md-content p {
+    text-indent: 2em;
+}
+
+section article h2:first-letter{
+    color: rgb(37, 37, 143);
+    font-size: 200%;
+    font-family: Gotham-Light,sans-serif;
+}
+
+md-content{
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+/* TOP Page */
+
+#top  {
+    text-align: center;
+}
+
+#top div p{
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#top h2{
+    font-family: garamond, "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+}
+
+
+#top h1 {
+    min-width: 380px;
+    font-size: 1.8em;
+    color: #3498db;
+}
+
+#top img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+#infos {
+    margin: auto;
+    background-color: rgb(224,224,224);
+    padding: 10px;
+    width: 250px;
+    font-weight: bold;
+    font-size: 0.9em;
+    border-radius: 10px;
+}
+
+/* CLASSES */
+
+.md-bar{
+    background-color: #2ecc71 !important;
+}
+
+.navbar{
+    background-color: rgb(37, 37, 143) !important;
+}
+
+.justify {
+    text-align: justify;
+}
+
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+

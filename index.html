@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="fr">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css" />
+    <link rel="stylesheet" href="css/timeline.css" />
+    <link rel="stylesheet" href="css/cv.css" />
+</head>
+
+<body ng-app="cvApp"
+ng-controller="cvCtrl" ng-cloak>
+
+    <header>
+        <nav role="navigation">
+            <md-toolbar class="navbar">
+                <md-tabs md-center-tabs md-selected="selectedIndex">
+                    <md-tab> CV </md-tab>
+                    <md-tab> Lettre de motivation </md-tab>
+                </md-tabs>
+            </md-toolbar>
+        </nav>
+    </header>
+
+    <section id="top" layout="row" layout-sm="column" layout-align="space-around" layout-padding style="align-items: center">
+            <div flex hide-md hide-sm>
+                <h1>{{datas.infos.intitule}}</h1>
+            </div>
+            <div flex>
+                <img src="img/profil.jpg"><br />
+                <h2>{{datas.infos.nom}}</h2>
+            </div>
+            <div flex class="justify">
+                <div id="infos">
+                    <infos datas-infos="datas.infos"></infos>
+                </div>
+            </div>
+    </section>
+
+    <main ng-view flex></main>
+</body>
+
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-aria/angular-aria.min.js"></script>
+<script src="bower_components/angular-animate/angular-animate.min.js"></script>
+<script src="bower_components/angular-material/angular-material.min.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="js/app.js"></script>
+<script src="js/controllers/cvCtrl.js"></script>
+<script src="js/directives/cvDirectives.js"></script>
+</html>

@@ -1,0 +1,41 @@
+<section layout-padding layout="row" layout-sm="column" layout-md="column" layout-align="space-around">
+    <article layout-padding flex="50" flex-md="100" flex-sm="100">
+        <h2>Formations</h2>
+        <formations datas-timeline="datas.formations"></formations>
+        <h2>Expériences</h2>
+        <experiences datas-timeline="datas.experiences"></experiences>
+        <h2>Langues</h2>
+        <table>
+            <tr layout="row"  ng-repeat="langue in datas.langues">
+                <td flex="30" flex-offset="5">{{langue.nom}}</td>
+                <td flex>{{langue.niveau}}</td>
+            </tr>
+        </table>
+    </article>
+
+    <article layout-padding flex="30" flex-md="100" flex-sm="100" >
+        <h2>Langages informatiques</h2>
+        <div flex="90" flex-offset="5" ng-repeat="langage in datas.langages">
+            <h4>{{langage.nom}}</h4>
+            <md-progress-linear md-mode="determinate" value={{langage.niveau}}></md-progress-linear>
+        </div>
+        <h2>Développement & conception</h2>
+        <div flex="90" flex-offset="5" ng-repeat="concept in datas.conception">
+            <h4>{{concept.nom}}</h4>
+            <md-progress-linear md-mode="determinate" value={{concept.niveau}}></md-progress-linear>
+        </div>
+        <h2>Frameworks et architecture</h2>
+        <div flex="90" flex-offset="5" ng-repeat="framework in datas.frameworks">
+            <h4>{{framework.nom}}</h4>
+            <md-progress-linear md-mode="determinate" value={{framework.niveau}}></md-progress-linear>
+        </div>
+        <h2>Gestion de contenu</h2>
+        <div flex="90" flex-offset="5" ng-repeat="cms in datas.CMS">
+            <h4>{{cms.nom}}</h4>
+            <md-progress-linear md-mode="determinate" value={{cms.niveau}}></md-progress-linear>
+        </div>
+        <h2>Loisirs et caractère</h2>
+        <md-chips layout-align="center" ng-model="datas.caractere" readonly="true"></md-chips>
+        <md-chips ng-model="datas.loisirs" readonly="true"></md-chips>
+    </article>
+</section>

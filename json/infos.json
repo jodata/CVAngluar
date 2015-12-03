@@ -1,0 +1,174 @@
+{
+  "infos": {
+    "nom": "Jordan Daïta",
+    "intitule": "Développement web",
+    "email": "jordandaita@gmail.com",
+    "phone": "+33(6).65.06.83.58",
+    "naissance": "3 Février 1993",
+    "transport": "Permis B",
+    "adresse":
+    {
+        "rue": "12 route de la crozette",
+        "ville": "Saint martin du Frêne",
+        "CP": "01430"
+    }
+  },
+  "formations": [
+    {
+      "date":"2015",
+      "universite":"Université Pierre Mendès France",
+      "description": "Master 2 IC²A spécialité Web Informatique et Connaissances (WIC) "
+    },
+    {
+      "date":"2014",
+      "universite":"Université Claude Bernard",
+      "description": "3ème année de Licence informatique"
+    },
+    {
+      "date":"2013",
+      "universite":"Université Claude Bernard",
+      "description": "Institut Universitaire de Technologie (IUT) Département informatique"
+    },
+    {
+      "date": "2011",
+      "universite": "Lycée Xavier Bichat",
+      "description": "Obtention du baccalauréat scientifique, spécialité mathématiques, Mention : Assez bien"
+    }
+  ],
+  "experiences": [
+    {
+      "titre":"Création d’une application web optimisée pour tablette",
+      "date":"2015",
+      "type":"Stage avec le Laboratoire Interuniversitaire de psychologie",
+      "description": "Développement d’une application pour le LIP de grenoble utilisable sur tablette permettant de capter les émotions des utilisateurs manipulant un avatar. La technologie WebGL (threejs) a été apprise et utilisée pendant ce projet qui nécessitait un environnement 3D.",
+      "lien": "http://emolyse.github.io/Emolyse/"
+    },
+    {
+      "titre":"Conception et développement d’un site internet",
+      "date":"2015",
+      "type":"Travail personnel",
+      "description": "Réalisation d’un site de vente en ligne de lacets élastiques. Utilisation du CMS Prestashop avec comme principale tâche la modifiaction de la mise en page",
+      "lien":"http://www.shoeps.fr"
+    },
+    {
+      "titre":"Réalisation d’un site e-commerce",
+      "date":"2013",
+      "type":"Télétravail pour la société lilikim",
+      "description": "Mise en place d’un site e-commerce pour la vente à l’international des produit de l’entreprise Lilikim avec le CMS Prestashop. Ce travail a été réalisé en télétravail nécessitant beaucoup d’autonomie et de rigueure",
+      "lien":"http://www.store.lilikim.com"
+    },
+    {
+      "titre":"Refonte du site internet de l’entreprise",
+      "date":"2013",
+      "type":"Stage de fin de DUT effectué chez Lilikim",
+      "description": "Création du nouveau site internet avec le CMS wordpress pour mettre en avant les produits de la société Lilikim. La création d’un thème complet a été demandé. Le travail a été réaliser avec le graphiste de l'entreprise. La prise d'initiative et être force de propositions étaient des atouts majeurs.",
+      "lien":""    }
+  ],
+
+
+  "langages": [
+    {
+      "nom":"HTML5",
+      "niveau":"70"
+    },
+    {
+      "nom":"CSS3",
+      "niveau":"70"
+    },
+    {
+      "nom":"Javacript",
+      "niveau":"65"
+    },
+    {
+      "nom":"Java",
+      "niveau":"70"
+    },
+    {
+      "nom":"PHP Objet",
+      "niveau":"55"
+    },
+    {
+      "nom":"SQL & PL/SQL",
+      "niveau":"55"
+    },
+    {
+      "nom":"C++",
+      "niveau":"40"
+    },
+    {
+      "nom":"Dev Android",
+      "niveau":"40"
+    },
+    {
+      "nom":".NET (C#)",
+      "niveau":"50"
+    },
+    {
+      "nom":"C",
+      "niveau":"30"
+    }
+  ],
+
+  "conception": [
+    {
+      "nom":"UML",
+      "niveau":"70"
+    },
+    {
+      "nom":"SCRUM",
+      "niveau":"50"
+    },
+    {
+      "nom":"MERISE",
+      "niveau":"30"
+    }
+  ],
+  "frameworks": [
+    {
+      "nom":"MVC",
+      "niveau":"80"
+    },
+    {
+      "nom":"AngularJS",
+      "niveau":"70"
+    },
+    {
+      "nom":"JQuery",
+      "niveau":"60"
+    },
+    {
+      "nom":"REST",
+      "niveau":"60"
+    },
+    {
+      "nom":"NodeJS",
+      "niveau":"50"
+    },
+    {
+      "nom":"WebGL (ThreeJS)",
+      "niveau":"60"
+    }
+  ],
+  "CMS": [
+    {
+      "nom":"Wordpress",
+      "niveau":"70"
+    },
+    {
+      "nom":"Prestashop",
+      "niveau":"40"
+    }
+  ],
+  "langues":[
+    {
+      "nom":"Anglais",
+      "niveau":"Pratique professionnelle, documentation et contacts écrits"
+    },
+    {
+      "nom":"Espagnol",
+      "niveau":"Notions"
+    }
+  ],
+  "caractere":["Autonome","Réfléchi","Motivé","Esprit d'équipe","Capacité d'adaptation"],
+  "loisirs":["Course à pied","Tennis","Football","Techniques de mémorisation","Le monde du web"]
+}
