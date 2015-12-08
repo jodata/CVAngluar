@@ -8,3 +8,9 @@ Install angular dependencies : `bower install`
 ## Thanks
 
 [rpocklin](https://github.com/rpocklin/angular-timeline) for the angular Timeline CSS. I reused this but changed all directives
+
+## Demo
+
+Demo [here](http://www.jordan-daita.fr/)
+
+
